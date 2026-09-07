@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+_DS_Store
+Thumbs.db
+
+# Local datasets
+/data/*
+!/data/README.md
+/train/
+/test_set/
+/dataset_split/
+*.zip
+*.tar
+*.tar.gz
+
+# Generated training artifacts
+/artifacts/
+/models/
+/runs/
+/logs/
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.log
+
+# Local prediction images with unverified redistribution rights
+/Bild1.png
+/Teste_Bild1.jpg
